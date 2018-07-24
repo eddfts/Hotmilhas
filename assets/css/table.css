@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+table.comBordaComplexa {
+    border-collapse: collapse; /* CSS2 */
+    background: #F90;
+    border: solid #6CF 1px; /* Precedência tem bug no IE */
+}
+ 
+table.comBordaComplexa td {
+    border: 1px solid grey;
+}
+ 
+table.comBordaComplexa th {
+    border: 1px solid grey;
+    border-bottom: 1px solid grey;
+    background:#F90;
+}
+
