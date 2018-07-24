@@ -2,7 +2,7 @@
 /* CSS Document */
 table.comBordaComplexa {
     border-collapse: collapse; /* CSS2 */
-    background: #F90;
+    background: #FFF;
     border: solid #6CF 1px; /* Precedência tem bug no IE */
 }
  
